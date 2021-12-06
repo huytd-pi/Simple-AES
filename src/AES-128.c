@@ -255,7 +255,7 @@ static uint8_t Multiply(uint8_t x, uint8_t y)
 
 /*
   	X . 9  = ((( X . 2) . 2) . 2) xor X 
-	X . 11 = ((((X . 2) . 2) + X) . 2) xor X
+	X . 11 = ((((X . 2) . 2) xor X) . 2) xor X
 	X . 13 = ((((X . 2) xor X) . 2) . 2) xor X
 	X . 14 = ((((X . 2) xor X) . 2) xor x) . 2	*/
 
